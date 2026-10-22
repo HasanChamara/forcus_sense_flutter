@@ -2,8 +2,6 @@
 
 On-device attention and fatigue detection for remote software developers. A Flutter Android app that reads the front camera, runs Google ML Kit Face Mesh on the phone, and flags sustained low attention with a break suggestion. No video or landmark data ever leaves the device.
 
-Built for IT6070 Emerging Topics in IT, Assignment II (SLIIT).
-
 ## Features
 
 1. **Real-time attention and fatigue detection (Monitor tab).** ML Kit Face Mesh (468 landmarks) feeds an eye aspect ratio (EAR) and a head-yaw proxy. Each frame is classified as `focused`, `drowsy`, `distracted`, `uncertain` or `noFace`.
